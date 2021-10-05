@@ -1,0 +1,469 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+@font-face{
+    font-family:yekan;
+    src:url('font/yekan.ttf');
+}
+
+
+P{
+    font-family: yekan;
+}
+
+.font12{
+    font-family: yekan;
+    font-size: 12px;
+}
+.font14{
+    font-family: yekan;
+    font-size: 14px;
+}
+
+.font15{
+    font-family: yekan;
+    font-size: 15px;
+}
+.font16{
+    font-family: yekan;
+    font-size: 16px;
+}
+.font17{
+    font-family: yekan;
+    font-size: 17px;
+}
+.font18{
+    font-family: yekan;
+    font-size: 18px;
+}
+.font19{
+    font-family: yekan;
+    font-size: 19px;
+}
+.font20{
+    font-family: yekan;
+    font-size: 20px;
+}
+
+
+.contaner{
+    width: 1200px;
+    margin: 0 auto;
+    height: 69%;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 140px;
+    background-color: #fff;
+   box-shadow: 0 1px 3px 0 #ccc;
+    -webkit-box-shadow: 0 1px 3px 0 #ccc;
+    -moz-box-shadow: 0 1px 3px 0 #ccc;
+    -o-box-shadow: 0 1px 3px 0 #ccc;    
+}
+
+
+body{
+background-color: #ffffff;
+}
+
+
+.header-right{
+    width: 500px;
+    height: 100%;
+    float: right;
+}
+
+.header-right .box-head{
+    margin: 20px 0 0 0;
+ 
+    float: right;
+    
+}
+/*
+.header-right .box-head img{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+*/
+/*
+.header-right .box-head h1{
+    float: right;
+    margin: 11px 11px 0 0;
+    font-weight:200;
+    color: #2A82D7;
+        transition: all 0.3s ease;
+
+}
+.header-right .box-head h3{
+    float: right;
+    width: 295px;
+    margin: -35px 100px 0 0;
+    font-weight: 500;
+    transition: all 0.6s ease;
+    font-family: yekan;
+    color: #2A82D7;
+
+    
+}
+*/
+/*
+.header-right .box-head h3:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.header-right .box-head h1:hover{
+    color: orange;
+    cursor: pointer;
+}
+*/
+
+
+
+.header-left{
+    width: 700px;
+    height: 100%;
+    float: left;
+}
+.header-left a{
+    font-weight: bold;
+}
+
+#nav-top{
+}
+
+
+#nav-top ul{
+    float: left;
+    margin: 17px 0 0 0;
+}
+
+#nav-top ul li{
+    float: right;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 1px #e3cccc;
+    transition: all 0.5s ease;
+}
+
+#nav-top ul li a{
+    
+    text-decoration: none;
+    color: #B062F0;
+    text-align: center;
+    display: block;
+}
+
+#nav-top ul li i{
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    color:#B062F0;
+    line-height: 55px;
+}
+
+
+#nav-top ul li:hover  {
+    background-color: #c52aab;
+}
+
+
+#nav-top ul li:hover a {
+    color: #fff;
+}
+
+
+
+#nav-top ul li:hover i {
+    color: #fff;
+}
+
+
+#nav-main{
+    width: 100%;
+    height: 40px;
+    background-color: #FBFBFB;
+}
+
+#nav-main > .contaner > ul{
+    position: relative;
+    
+}
+#nav-main > .contaner > ul > li{
+    float: right;
+    height: 40px;
+    transition: all 0.5s ease;
+    text-align: center;
+    width: 100px;
+   
+
+}
+#nav-main > .contaner > ul > li > a{
+    text-decoration: none;
+    color:#B062F0;
+    display: block;
+    height: 40px;
+    line-height: 38px;
+    margin-left: 8px;
+    text-align: center;
+    transition: all 0.5s ease;
+    
+
+}
+
+#nav-main > .contaner > ul > li:hover{
+    background-color: #c52aab;
+}
+
+#nav-main > .contaner > ul > li:hover > a{
+    
+    color: #fff;
+}
+
+
+#nav-main .contaner ul li ul {
+    background-color: #FBFBFB;
+        width: 165px;
+    position: absolute;
+ box-shadow: 0 2px 3px #ccc;
+    padding: 5px 10px;
+    display: none;
+    transition: all 0.4s ease;
+    z-index: 11111;
+
+    
+    
+}
+
+#nav-main .contaner ul li ul li {
+    height: 40px;
+    border-bottom: 1px solid #2A82D7;
+        padding: 0 15px;
+
+    
+}
+
+#nav-main .contaner ul li ul li a {
+    text-decoration: none;
+    color:#B062F0;
+    text-align: center
+    display: block;
+    height: 40px;
+    line-height: 38px;
+    transition: all 0.4s ease;
+    
+
+}
+
+#nav-main .contaner ul li:hover ul {
+    display: block;
+}
+#nav-main .contaner ul li ul li a:hover {
+  color: #85C52A;
+}
+
+#main-page .contaner .center h1{
+    font-family:yekan;
+    font-size: 28px;
+    font-weight: 500;
+    color: #2A82D7;
+
+}
+
+
+
+
+#main-page .contaner .center p{
+    color: #2A82D7;
+}
+
+
+
+
+img:hover{
+    cursor: pointer;
+}
+
+
+
+
+.search-box{
+    width: 300px;
+    height: 40px;
+    float: left;
+    
+}
+
+
+input[type=text]{
+    width: 288px;
+    height: 40px;
+    border: 0;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding-right: 12px;
+    
+    
+}
+
+
+
+.main-page .contaner .p{
+    color: #85C52A;
+}
+
+
+
+
+button{
+    background-color:#2A82D7;
+    color: #fff;
+    transition: all 0.6s ease;
+}
+
+button:hover{
+      background-color:#c52aab;
+      color: #ffffff !important;
+}
+
+
+
+.titlebar{
+    width: 265px;
+    height: 40px;
+    position: absolute;
+         background-color: rgba(255,255,255,0.8);
+    bottom: 0;
+}
+
+.slideshow{
+    width: 701px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    margin-top: 10px;
+}
+
+
+.list-top{
+    width: 600px;
+    height: 40px;
+    
+}
+
+.list-top ul li{
+    float: right;
+    width: 200;
+    height: 40px;
+    line-height: 38px;
+    transition: all 0.8s ease;
+    box-shadow: 0 0px 1px #ccc;
+    color: #2A82D7;
+
+    text-align: center;
+}
+
+.list-top ul li:hover{
+    background-color: #c52aab;
+    color: #fff;
+    cursor: pointer
+}
+
+
+.content{
+    width: 700px;
+    height: 280px;
+    border-right: 2px solid #eee;
+    border-left: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    background-color: #fff;
+
+}
+
+.slidebox1{
+    width: 300px;
+    height: 95px;
+    float: right;
+    margin: 15px;
+    
+}
+
+.slidebox1 img{
+    width: 100px;
+    height: 95px;
+    border-radius: 50%;
+    float: right;
+     
+    
+}
+.slidebox1 p {
+    margin: 13px 0;
+}
+
+.slidebox1 .nev{
+    margin: 20px 23px;
+}
+
+
+.box2{
+    display: none;
+}
+
+.box3{
+    display: none;
+}
+.footer1{
+ text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
